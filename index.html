@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GitHub Stats Dashboard</title>
+</head>
+
+<body>
+    <div class="main-cont">
+        <div class="cont">
+            <div class="internal-cont">
+                <h1 class="heading">GitHub Stats Dashboard</h1>
+                <input type="text" name="username" id="username" placeholder="Enter the username" required>
+                Stars<input type="checkbox" name="coefficients" id="stars">
+                Forks<input type="checkbox" name="coefficients" id="forks">
+                Commit Activity<input type="checkbox" name="coefficients" id="commits">
+                Issues<input type="checkbox" name="coefficients" id="issues">
+                Pull Requests<input type="checkbox" name="coefficients" id="pull_requests">
+                <button class="form-btns" onclick="main()">List Repos and Statistics</button>
+                <button class='form-btns' onclick="refresh()">Refresh</button>
+                <div id="repo-names">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="stats">
+            <ul>
+
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

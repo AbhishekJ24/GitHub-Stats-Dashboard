@@ -1,0 +1,83 @@
+* {
+    font-family: 'Helvetica';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-cont{
+    position: absolute;
+    background: linear-gradient(to right, #1B1A55, #535C91, #8a92b9, #8a92b9, #535C91, #1B1A55);
+    height: 100%;
+    width: 100%;
+
+}
+
+.cont {
+    color: #9290C3;
+    background-color: #070F2B;
+    border-radius: 40px;
+    height: 400px;
+    width: 600px;
+    padding: 30px;
+    overflow: scroll;
+    margin-left: 30%;
+    margin-top: 12.5%;
+}
+
+.form-btns {
+    border: none;
+    background-color: #535C91;
+    color: #1B1A55;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 8px;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    margin-top: 20px;
+}
+
+.form-btns:hover {
+    background-color: #8a92b9;
+}
+
+#repo-names {
+    font-size: 15px;
+    margin: 20px;
+}
+
+#username {
+    height: 35px;
+    width: 250px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.internal-cont input {
+    margin: 10px;
+}
+
+
+#stats {
+    color: darkorange;
+    width: 200px;
+    margin-left: 42.5%;
+    margin-top: 1%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #070F2B;
+    visibility: hidden;
+}
+
+#stats ul{
+    list-style: none;
+}
