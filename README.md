@@ -1,4 +1,4 @@
-GitHub Stats Dashboard
+# GitHub Stats Dashboard
 Overview
 
 This GitHub Stats Dashboard is a tool that fetches data from GitHub's REST API and displays various statistics about a user's repositories. It provides insights into repository activity, including stars, commits, forks, issues, and more.
