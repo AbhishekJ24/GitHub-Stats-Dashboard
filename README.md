@@ -8,13 +8,13 @@ Features
 Displays a list of repositories belonging to the specified username.
 
 #### Repository Stats:
-- Stars: Number of stars received by each repository.
-- Commits: Total commits made across all repositories.
-- Forks: Number of forks for each repository.
-- Issues: Total issues opened across all repositories.
-- Pull Requests: Total pull requests made across all repositories.
-- Search Functionality: Allows users to search for specific repositories within the dashboard.
-- Responsive Design: Optimized for viewing on various devices.
+- **Stars**: Number of stars received by each repository.
+- **Commits**: Total commits made across all repositories.
+- **Forks**: Number of forks for each repository.
+- **Issues**: Total issues opened across all repositories.
+- **Pull Requests**: Total pull requests made across all repositories.
+- **Search Functionality**: Allows users to search for specific repositories within the dashboard.
+- **Responsive Design**: Optimized for viewing on various devices.
 
 #### Technologies Used
 - GitHub REST API
@@ -22,9 +22,9 @@ Displays a list of repositories belonging to the specified username.
 
 #### How to Use
 - Clone the repository to your local machine.
-- Open the index.html file in your web browser.
+- Open the **index.html** file in your web browser.
 - Enter the GitHub username you want to fetch data for.
-- Click the "List Repos and Stats" button to populate the dashboard with user stats.
+- Click the **List Repos and Stats** button to populate the dashboard with user stats.
 
 #### Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
