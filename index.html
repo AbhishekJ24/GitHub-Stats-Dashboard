@@ -9,22 +9,22 @@
 </head>
 
 <body>
-    <div class="main-cont">
-        <div class="cont">
-            <div class="internal-cont">
-                <h1 class="heading">GitHub Stats Dashboard</h1>
-                <input type="text" name="username" id="username" placeholder="Enter the username" required>
-                Stars<input type="checkbox" name="coefficients" id="stars">
-                Forks<input type="checkbox" name="coefficients" id="forks">
-                Commit Activity<input type="checkbox" name="coefficients" id="commits">
-                Issues<input type="checkbox" name="coefficients" id="issues">
-                Pull Requests<input type="checkbox" name="coefficients" id="pull_requests">
+    <div class="cont">
+        <div class="internal-cont">
+            <h1 class="heading">GitHub Stats Dashboard</h1>
+            <input type="text" name="username" id="username" placeholder="Enter the username" required>
+            Stars<input type="checkbox" name="coefficients" id="stars">
+            Forks<input type="checkbox" name="coefficients" id="forks">
+            Commit Activity<input type="checkbox" name="coefficients" id="commits">
+            Issues<input type="checkbox" name="coefficients" id="issues">
+            Pull Requests<input type="checkbox" name="coefficients" id="pull_requests">
+            <div class="button-cont">
                 <button class="form-btns" onclick="main()">List Repos and Statistics</button>
                 <button class='form-btns' onclick="refresh()">Refresh</button>
                 <div id="repo-names">
-                    <ul>
-                    </ul>
                 </div>
+                <ul>
+                </ul>
             </div>
         </div>
         <div id="stats">

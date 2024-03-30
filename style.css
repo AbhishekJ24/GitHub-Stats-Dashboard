@@ -5,15 +5,14 @@
     box-sizing: border-box;
 }
 
-.main-cont {
-    position: absolute;
+body{
     background: linear-gradient(to right, #1B1A55, #535C91, #8a92b9, #8a92b9, #535C91, #1B1A55);
-    height: 100%;
-    width: 100%;
-
+    display: flex;
+    justify-content: center;
 }
 
 .cont {
+    margin-top: 40px;
     color: #9290C3;
     background-color: #070F2B;
     border-radius: 40px;
@@ -60,6 +59,11 @@
     margin-top: 20px;
 }
 
+.button-cont{
+    display: flex;
+    align-items: center;
+}
+
 .form-btns:hover {
     background-color: #8a92b9;
 }
@@ -86,8 +90,6 @@
 #stats {
     color: darkorange;
     width: 200px;
-    margin-left: 42.5%;
-    margin-top: 1%;
     padding: 10px;
     border-radius: 20px;
     background-color: #070F2B;
