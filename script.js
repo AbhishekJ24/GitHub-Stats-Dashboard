@@ -15,7 +15,7 @@ async function test() {
     for (let repo of jesp) {
         let li = document.createElement('li')
         li.innerText = repo.name
-        repo.append(li)
+        rep.append(li)
     }
     let isStars = document.getElementById('stars').checked
     let isForks = document.getElementById('forks').checked
